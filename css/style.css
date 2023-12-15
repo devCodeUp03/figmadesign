@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+a {
+    color: black;
+}
+
+button:hover {
+    cursor: pointer;
+}
+body {
+    margin-left: 143px;
+    margin-right: 88px;
+}
+
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 56px;
+}
+.nav-link{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.nav-button {
+    display: flex;
+    gap: 1.875rem;
+    align-items: center;
+}
+
+#nav-button1{
+    width: 53px;
+    height: 19px;
+    color: #0B132A;
+    font-size: 16px;
+    font-weight: medium;
+    border: none;
+    background-color: white;
+}
+
+#nav-button2{
+    height: 45px;
+    width: 150px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: medium;
+    color: #F53855;
+    border:1px solid #F53855;
+    background-color: white;
+}
+
+.first-text-image {
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 182px;
+}
+
+.first-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.first-text h1{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+}
+.first-text h1 span {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+
+}
+
+.first-text button {
+    width: 250px;
+    height: 84px;
+    border-radius: 15px;
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 25px;
+    background-color: #F54747;
+    border: none;
+    color: white;
+}
+
+.first-image{
+    width: 611.24px;
+    height: 382.44px
+}
+
+.user-location-server {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.user-location-server li i{
+    border: 1px solid #FFECEC;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    border-radius: 50%;
+    background-color: #FFECEC;
+}
+
+.user-location-server li{
+     display: flex;
+     align-items: center;
+     gap: 1rem;
+}
+
+.second-image-text {
+    display: flex;
+    align-items: center;
+    gap: 170px;
+}
+
+.second-image {
+    height: 414px;
+    width: 508px;
+}
+
+.second-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;;
+}
+
+.second-text h2, p{
+    margin-bottom: 20px;
+}
+
+.second-text ul li {
+    margin-bottom: 15px;
+}
+
+.second-text i {
+    margin-right: 10px;
+}
+
+/* 
+Weight
+500
+Size
+50px
+Line height
+70px
+Font
+Rubik
+Weight
+700
+Size
+50px
+Line height
+70px */
+
+/* 
+Font
+Rubik
+Weight
+700
+Size
+16px
+Line height
+25px */
