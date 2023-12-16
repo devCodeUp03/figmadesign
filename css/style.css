@@ -115,7 +115,7 @@ body {
 .user-location-server li{
      display: flex;
      align-items: center;
-     gap: 1rem;
+     gap: 2rem;
 }
 
 .second-image-text {
@@ -135,7 +135,7 @@ body {
     justify-content: center;;
 }
 
-.second-text h2, p{
+.second-text h2, .second-text p{
     margin-bottom: 20px;
 }
 
@@ -147,28 +147,218 @@ body {
     margin-right: 10px;
 }
 
-/* 
-Weight
-500
-Size
-50px
-Line height
-70px
-Font
-Rubik
-Weight
-700
-Size
-50px
-Line height
-70px */
 
-/* 
-Font
-Rubik
-Weight
-700
-Size
-16px
-Line height
-25px */
+.third-text-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.free-plans {
+    display: flex;
+    gap: 50px;
+}
+.plan-border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 16px;
+    height: 620px;
+    padding: 20px 40px;
+    justify-content: space-between;
+}
+.gap-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.margin-bottom{
+    margin-bottom: 90px;
+}
+.third-text-images i {
+    margin-right: 10px;
+}
+.third-text-images button {
+    width: 178px;
+    height: 45px;
+    border-radius: 24px;
+    border: 1px solid #F53838;
+    color: #F53838;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: white;
+}
+#third-third-btn{
+    color: white;
+    background-color: #F53838;
+}
+.third-text-images img {
+    margin-bottom: 16px;
+}
+
+.span-bold {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0B132A;
+}
+.fourth-text-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourth-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.fourth-text-image ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.fifth-text-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.persons {
+    display: flex;
+    gap: 20px;
+}
+.person {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border: 2px solid grey;
+    padding: 1rem;
+    border-radius: 16px;
+}
+.person img {
+    border-radius: 50%;
+}
+
+.image-name {
+    display: flex;
+    gap: 1rem;
+}
+
+.fifth-para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rating-icon {
+    display: flex;
+    gap: 1rem;
+}
+
+.fifth-text-image img {
+    height: 50px;
+    width: 50px;
+}
+
+.fifth-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrows {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+    margin-right: 5rem;
+
+}
+.arrows i {
+    font-size: 50px;
+}
+
+.arrows .arrows-1 {
+    background-color: white;
+}
+.arrows i:hover {
+    cursor: pointer;
+}
+
+.sixth-text-btn-main {
+    display: flex; 
+    justify-content: center;
+}
+.sixth-text-btn{
+    display: flex;
+    justify-content: space-between;
+    height: 223px;
+    width: 1140px;
+    border: 1px solid black;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 6px;
+}
+
+.sixth-head-para {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: start;
+}
+
+
+.sixth-text-btn button {
+    width: 250px;
+    height: 85px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #F53838;
+    color: white;
+    border-radius: 6px;
+    border:none;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    height: 400px;
+    border: 1px solid;
+    padding-top: 6rem;
+    padding-left: 4rem;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+}
+footer .logo-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 250px;
+    margin-right: 10rem;
+
+}
+footer .last-three {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+}
+
+
+
+
+
+
+
