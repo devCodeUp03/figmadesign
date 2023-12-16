@@ -351,3 +351,8 @@ footer .last-three {
   gap: 1rem;
   align-items: start;
 }
+
+.social-media-icons {
+  display: flex;
+  gap: 2rem;
+}
